@@ -12,7 +12,7 @@ font = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=14)    # 解决
 
 def KMeans():
     '''二维数据聚类过程演示'''
-    print(u'聚类过程展示...\n')
+    print(u'聚类过程展示......\n')
     data = spio.loadmat("data.mat")
     X = data['X']
     K = 3   # 总类数
